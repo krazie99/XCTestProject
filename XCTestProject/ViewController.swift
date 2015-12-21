@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func isString(anything : AnyObject?) -> Bool {
+        
+        if let string = anything as? String {
+            print(string)
+            return true
+        }
+        
+        return false
+    }
+    
 }
 
